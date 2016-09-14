@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateEncoderKata", "DuplicateEncoderKata\DuplicateEncoderKata.csproj", "{B1E5488A-96CC-4109-93DB-8C1039270620}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DuplicateEncoderKataTests", "DuplicateEncoderKataTests\DuplicateEncoderKataTests.csproj", "{608F9C9C-0CA3-4BE3-B069-6CCF92816BF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B1E5488A-96CC-4109-93DB-8C1039270620}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1E5488A-96CC-4109-93DB-8C1039270620}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1E5488A-96CC-4109-93DB-8C1039270620}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1E5488A-96CC-4109-93DB-8C1039270620}.Release|Any CPU.Build.0 = Release|Any CPU
+		{608F9C9C-0CA3-4BE3-B069-6CCF92816BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{608F9C9C-0CA3-4BE3-B069-6CCF92816BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{608F9C9C-0CA3-4BE3-B069-6CCF92816BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{608F9C9C-0CA3-4BE3-B069-6CCF92816BF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
