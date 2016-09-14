@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfMissingArrayKata", "LengthOfMissingArrayKata\LengthOfMissingArrayKata.csproj", "{522B5E93-71BD-4267-95EC-338A92E4CF38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LengthOfMissingArrayKataTests", "LengthOfMissingArrayKataTests\LengthOfMissingArrayKataTests.csproj", "{045FEC98-A1BF-462D-AEB8-FE0596ED8E83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{522B5E93-71BD-4267-95EC-338A92E4CF38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{522B5E93-71BD-4267-95EC-338A92E4CF38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{522B5E93-71BD-4267-95EC-338A92E4CF38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{522B5E93-71BD-4267-95EC-338A92E4CF38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{045FEC98-A1BF-462D-AEB8-FE0596ED8E83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{045FEC98-A1BF-462D-AEB8-FE0596ED8E83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{045FEC98-A1BF-462D-AEB8-FE0596ED8E83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{045FEC98-A1BF-462D-AEB8-FE0596ED8E83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
