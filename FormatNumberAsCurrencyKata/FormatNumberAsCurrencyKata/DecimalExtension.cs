@@ -10,7 +10,13 @@ namespace FormatNumberAsCurrencyKata
     {
         public static string ToCurrency(this Decimal input, string prefix)
         {
-            return String.Empty;
+            var negative = "";
+            if (input < 0)
+            {
+                negative = "-";
+            }
+
+            return String.Format("{0}{1}{2}", negative, prefix, Math.Abs(input).ToString("0.00"));
         }
     }
 }
