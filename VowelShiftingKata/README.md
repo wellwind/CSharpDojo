@@ -1,4 +1,4 @@
-Vowel Sgifting Kata
+Vowel Shifting Kata
 ==========
 
 You get a "text" and have to shift the vowels by "n" positions to the right.
