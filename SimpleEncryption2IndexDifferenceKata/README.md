@@ -5,7 +5,7 @@ For encrypting strings this region of chars is given (in this order!):
 
 - all letters (ascending, first all UpperCase, then all LowerCase)
 - all digits (ascending)
-- the following chars: ".,:;-?!'()$%&"and the'"'-char
+- the following chars: ".,:;-?!      '()$%&"and the'"'-char
 
 These are 77 chars! (This region is zero-based.)
 
