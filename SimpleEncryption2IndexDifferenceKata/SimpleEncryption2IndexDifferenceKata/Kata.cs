@@ -99,7 +99,13 @@ namespace SimpleEncryption2IndexDifferenceKata
             {
                 throw new Exception();
             }
-            throw new NotImplementedException();
+
+            var result = String.Empty;
+            result = DecryptStep1(encryptedText);
+            result = DecryptStep2(result);
+            result = DecryptStep3(result);
+
+            return result;
         }
 
         public static string DecryptStep1(string text)
