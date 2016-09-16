@@ -11,6 +11,20 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
     [TestClass()]
     public class KataTests
     {
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void EncryptValidateTests()
+        {
+            Kata.Encrypt("*");
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
+        public void DecryptValidateTests()
+        {
+            Kata.Decrypt("*");
+        }
+
         [Ignore]
         [TestMethod]
         public void EncryptExampleTests()
