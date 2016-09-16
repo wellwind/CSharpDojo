@@ -10,7 +10,21 @@ namespace IQTestKata
     {
         public static int IQTest(string numbers)
         {
-            return 0;
+            var values = numbers
+                .Split(new string[] { " " }, StringSplitOptions.None)
+                .Select(val => Convert.ToInt32(val))
+                .ToList();
+
+            var oddsCount = values.Count(val => val % 2 == 1);
+
+            if (oddsCount == 1)
+            {
+                return values.IndexOf(values.First(val => val % 2 == 1)) + 1;
+            }
+            else
+            {
+                return values.IndexOf(values.First(val => val % 2 == 0)) + 1;
+            }
         }
     }
 }
