@@ -57,7 +57,7 @@ namespace SimpleEncryption2IndexDifferenceKata
         }
 
         /// <summary>
-        /// Step1: For every char take the index from the region. Take the difference from the region-index of the char before
+        /// Step2: For every char take the index from the region. Take the difference from the region-index of the char before
         /// (from the input text! Not from the fresh encrypted char before!). (Char2 = Char1-Char2)
         /// </summary>
         /// <param name="text"></param>
@@ -80,6 +80,11 @@ namespace SimpleEncryption2IndexDifferenceKata
             return result;
         }
 
+        /// <summary>
+        /// Step3: Replace the first char by the mirror in the given region. ('A' -> '"', 'B' -> '&', ...)
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         public static string EncryptStep3(string text)
         {
             var firstIndex = availableCharasters.IndexOf(text[0]);
