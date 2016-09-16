@@ -24,6 +24,30 @@ namespace SimpleEncryption2IndexDifferenceKata
             throw new NotImplementedException();
         }
 
+        /// <summary>
+        /// Step1: For every second char do a switch of the case.
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
+        public static string EncryptStep1(string text)
+        {
+            var result = String.Empty;
+            for (int i = 0; i < text.Length; ++i)
+            {
+                if (i%2 == 1)
+                {
+                    result += Char.IsUpper(text[i])
+                        ? text[i].ToString().ToLower()
+                        : text[i].ToString().ToUpper();
+                }
+                else
+                {
+                    result += text[i].ToString();
+                }
+            }
+            return result;
+        }
+
         public static string Decrypt(string encryptedText)
         {
             if (String.IsNullOrEmpty(encryptedText))

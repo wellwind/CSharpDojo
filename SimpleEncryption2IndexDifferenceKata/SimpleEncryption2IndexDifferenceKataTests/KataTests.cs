@@ -25,6 +25,13 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
             Kata.Decrypt("*");
         }
 
+        [TestMethod]
+        public void EncryptStep1Tests()
+        {
+            Assert.AreEqual("BUsInEsS", Kata.EncryptStep1("Business"));
+            Assert.AreEqual("BUsInEsS1234", Kata.EncryptStep1("Business1234"));
+        }
+
         [Ignore]
         [TestMethod]
         public void EncryptExampleTests()
