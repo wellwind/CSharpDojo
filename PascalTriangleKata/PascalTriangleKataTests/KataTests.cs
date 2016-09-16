@@ -19,7 +19,7 @@ namespace PascalTriangleKata.Tests
                 Kata.PascalsTriangle(1));
 
             CollectionAssert.AreEqual(
-                new List<int> { 1, 1 },
+                new List<int> { 1, 1, 1 },
                 Kata.PascalsTriangle(2));
         }
 
