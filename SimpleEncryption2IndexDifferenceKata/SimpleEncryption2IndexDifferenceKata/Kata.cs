@@ -111,5 +111,22 @@ namespace SimpleEncryption2IndexDifferenceKata
         {
             return EncryptStep1(text);
         }
+
+        public static string DecryptStep2(string text)
+        {
+            var result = text[0].ToString();
+            for (int i = 1; i < text.Length; ++i)
+            {
+                var decryptedCharIndex = availableCharasters.IndexOf(result[i - 1])
+                                         - availableCharasters.IndexOf(text[i]);
+                if (decryptedCharIndex < 0)
+                {
+                    decryptedCharIndex += availableCharasters.Length;
+                }
+                result += availableCharasters[decryptedCharIndex].ToString();
+            }
+
+            return result;
+        }
     }
 }
