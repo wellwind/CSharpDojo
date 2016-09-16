@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangleKata", "PascalTriangleKata\PascalTriangleKata.csproj", "{A3E78779-BF69-4ECF-B55E-906D5495B7F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PascalTriangleKataTests", "PascalTriangleKataTests\PascalTriangleKataTests.csproj", "{6B40B08B-6964-4C88-B976-6CF9B6007C7B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A3E78779-BF69-4ECF-B55E-906D5495B7F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3E78779-BF69-4ECF-B55E-906D5495B7F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3E78779-BF69-4ECF-B55E-906D5495B7F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3E78779-BF69-4ECF-B55E-906D5495B7F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B40B08B-6964-4C88-B976-6CF9B6007C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B40B08B-6964-4C88-B976-6CF9B6007C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B40B08B-6964-4C88-B976-6CF9B6007C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B40B08B-6964-4C88-B976-6CF9B6007C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
