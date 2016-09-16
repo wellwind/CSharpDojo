@@ -68,6 +68,12 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
         }
 
         [TestMethod]
+        public void DecrtpyStep3Tests()
+        {
+            Assert.AreEqual("Business", Kata.DecryptStep3("BUsInEsS"));
+        }
+
+        [TestMethod]
         public void EmptyTests()
         {
             Assert.AreEqual("", Kata.Encrypt(""));

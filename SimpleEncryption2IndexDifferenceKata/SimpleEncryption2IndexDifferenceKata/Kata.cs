@@ -106,5 +106,10 @@ namespace SimpleEncryption2IndexDifferenceKata
         {
             return EncryptStep3(text);
         }
+
+        public static string DecryptStep3(string text)
+        {
+            return EncryptStep1(text);
+        }
     }
 }
