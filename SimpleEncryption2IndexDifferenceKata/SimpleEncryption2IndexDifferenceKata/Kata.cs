@@ -101,5 +101,10 @@ namespace SimpleEncryption2IndexDifferenceKata
             }
             throw new NotImplementedException();
         }
+
+        public static string DecryptStep1(string text)
+        {
+            return EncryptStep3(text);
+        }
     }
 }

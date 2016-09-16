@@ -62,6 +62,12 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
         }
 
         [TestMethod]
+        public void DecrtpyStep1Tests()
+        {
+            Assert.AreEqual("B61kujla", Kata.DecryptStep1("&61kujla"));
+        }
+
+        [TestMethod]
         public void EmptyTests()
         {
             Assert.AreEqual("", Kata.Encrypt(""));
