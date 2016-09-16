@@ -29,7 +29,6 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
             Assert.AreEqual("This kata is very interesting!", Kata.Decrypt("5MyQa79H'ijQaw!Ns6jVtpmnlZ.V6p"));
         }
 
-        [Ignore]
         [TestMethod]
         public void EmptyTests()
         {
@@ -37,7 +36,6 @@ namespace SimpleEncryption2IndexDifferenceKata.Tests
             Assert.AreEqual("", Kata.Decrypt(""));
         }
 
-        [Ignore]
         [TestMethod]
         public void NullTests()
         {

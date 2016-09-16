@@ -10,12 +10,20 @@ namespace SimpleEncryption2IndexDifferenceKata
     {
         public static string Encrypt(string text)
         {
-            return text;
+            if (String.IsNullOrEmpty(text))
+            {
+                return text;
+            }
+            throw new NotImplementedException();
         }
 
         public static string Decrypt(string encryptedText)
         {
-            return encryptedText;
+            if (String.IsNullOrEmpty(encryptedText))
+            {
+                return encryptedText;
+            }
+            throw new NotImplementedException();
         }
     }
 }
